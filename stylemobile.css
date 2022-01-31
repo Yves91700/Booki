@@ -156,6 +156,7 @@
        background-color: #f2f2f2;
        border-radius: 0px;
        display: block;
+       height: 6OOpx;
      }
      .contourPhoto{
       flex-direction: row;
