@@ -1,0 +1,682 @@
+/* google fonts raleway */
+html , body
+{
+  font-family: raleway;
+}
+
+
+/*general flexbox*/
+.flexCentre
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.betweenFlex
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.aroundFlex
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.aroundFlex2
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* pour faire les colonnes avec les images*/
+.flexCentreColonne
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.betweenFlexColonne
+{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.aroundFlexColonne
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+/* proprietés css box-sizing pour tout le fichier*/
+* {
+    box-sizing: border-box;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+   
+}
+.logo 
+{
+  width: 120px;
+  height: 50px;
+}
+
+/* couleurs des liens de navigations*/
+.liens
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.colorlien1
+{
+    color: black;
+}
+.colorlien1:hover 
+{
+  color: #0065FC;
+}
+.colorlien2
+{
+    color: black;
+}
+.colorlien2:hover
+{
+  color: #0065FC;
+}
+
+.deconone
+{
+  text-decoration: none;
+  
+}
+
+.sizelien
+{
+  width: 180px;
+  height: 99px;
+  
+}
+.bordureNav
+{
+  border-top: 1px solid transparent;
+
+  
+  
+  
+  
+}
+.bordureNav:hover
+{
+  border-top: 1px solid #0065FC;
+  cursor: pointer;
+  color: #0065FC;
+}
+ 
+
+
+
+/* barre de recherche*/
+.bordureNone
+{
+  border: none;
+}
+.bordureHeader
+{
+  width: 450px;
+  border-radius: 10px;
+  padding-left: 40px;
+  
+  
+}
+header h1
+{
+  font-size: 20px;
+  
+}
+.titre1
+{
+  padding-left: 40px;
+}
+
+.P1
+{
+  color: grey;
+  padding-left: 40px;
+}
+.bordureSearch
+{
+  height: 50px;
+  width: 250px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.buttonSearchMobile /* pour faire disparaitre icon search */
+{
+  display: none;
+}
+
+.iconSize
+{
+  width: 50px;
+  height: 50px;
+  border: solid #f2f2f2;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius:30%;
+  font-size: 18px;
+}
+.couleurFond
+{
+  background-color: #f2f2f2;
+}
+.boutonRecherche
+{
+  border: 1px solid;
+  border-radius: 0 10px 10px 0;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: #0065FC;
+  
+}
+
+/* la zone filtre */
+.zoneFiltre
+{
+  display: flex;
+  align-items: center;
+  
+}
+.effet:hover
+{
+  color: #0065FC;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.margeZoneFiltre
+{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.margeFiltreh3 /* marge pour ecarter le titre h3 filtre */
+{
+  margin-right: 40px;
+  padding-left: 40px;
+}
+.filtreIconsText
+{
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  padding-right: 20px;
+  border-radius: 30px;
+  margin-right: 40px;
+}
+
+.filtreIconSeul
+{
+  border-radius: 30px;
+  width: 52px;
+  height: 52px;
+  color: #0065FC;
+  background-color: #deebff;
+  padding: 15px;
+  font-size: 20px;
+}
+.iconCentre
+{
+  display:flex;
+  justify-content: center;
+  align-items: center
+}
+/* la parti info et message */
+.infoCentre
+{
+  display:flex;
+  align-items: center;
+  
+}
+.infoText
+{
+color: grey;
+}
+
+.infoIcon
+{
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  width:30px;
+  height: 30px;
+  color: #0065FC;
+  background-color:white;
+  font-size: 10px;
+}
+.margeInfo 
+{
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+.margeIconInfo
+{
+  margin-right: 10px;
+}
+/* tout le bloc section complet avec aroundFlex*/
+
+/* le bloc hebergemnt */
+.hebergement
+{
+  flex: 2;
+  height: 650px;
+  margin: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color:#f2f2f2;
+  
+
+}
+.blochebergementimg
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.bloc1 /* reduire la marge du bas */
+{
+  margin-bottom: 40px;
+
+}
+.bloc2 /* reduire la marge du bas */
+{
+  margin-bottom: 20px;
+  
+}
+.margeAffichePlus{
+  margin-bottom: 40px;
+}
+.fontsize
+{
+  font-size: 14px; 
+}
+h3
+{
+  font-weight: 900;
+}
+
+.hebergementImg1
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+  
+}
+
+.hebergementImg2
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.hebergementImg3
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+.hebergementImg4
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+.hebergementImg5
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+.hebergementImg6
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+
+/* le bloc plus populaire*/
+
+.populaire
+{
+ flex: 1;
+ height: 650px;
+ margin-left: 20px;
+ margin-right:20px;
+ border-radius: 10px; 
+ background-color:#f2f2f2;
+ justify-content: space-between;
+}
+
+.sizeLogoPop
+{
+  font-size: 14px;
+}
+.blocPopulaireImgMarge
+{
+  margin-top: 20px;
+  
+}
+
+/* photo bloc les plus populaire */
+.populaireImg1
+{
+  object-fit: cover;
+  width: 35%;
+  height: 150px;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 2px;  
+}
+
+.populaireImg2
+{
+  object-fit: cover;
+  width: 35%;
+  height: 150px;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 2px;
+}
+
+.populaireImg3
+{
+  object-fit: cover;
+  width: 35%;
+  height: 150px;
+  border-radius: 15px 0 0 15px;
+  margin-left: 2px;
+}
+.titrePhotoPopulaire
+{ 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 65%;
+  min-height: auto;
+  padding-left: 5%; 
+}
+
+/* pour faire la couleur des etoiles */
+.colorEtoileBleu
+{
+  color: #0065FC;
+}
+
+.colorEtoileGris
+{
+  color: grey;
+}
+.tailleEtoile
+  { 
+    font-size: 12px;
+    text-align: left;
+  }
+/* pour faire le contour blanc des photos*/
+.contourPhoto
+{
+  display: block;
+  border-radius: 20px;
+  background-color: white;
+  padding: 1%;
+  width: 230px;
+  height: 100%;  
+}
+.contourPhoto a
+{
+  text-decoration: none; 
+}
+section p
+{
+  color: black;
+}
+
+.contourPhoto:hover /* effet cliquable */
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.contourPhotoPopulaire
+ {
+   display: flex;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1% 0 1% 1%;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  .contourPhotoPopulaire:hover
+  {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .cardPopulaire a
+  {
+    text-decoration: none;
+  }
+  .contourPhotoActivites /* bloc parent de la photo */
+  {
+    width: 23%;
+    height: 100%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+  }
+.contourPhotoActivites:hover /* effet cliquable */
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.contourPhotoActivites a{
+  text-decoration: none;
+}
+.contourPhotoActivites h4{
+  color: black;
+}
+.contourPhotoActivites2_3
+{
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 1px #f2f2f2;   
+}
+  .contourPhotoActivites2_3:hover /* effet cliquable */
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.contourPhotoActivites2_3 a{
+  text-decoration: none;
+}
+.contourPhotoActivites2_3 h4{
+  color: black;
+}
+
+  
+  /* le bloc Activités */
+
+.activites
+ {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.blocActivites1
+{ 
+  width: 100%;
+  height: 500px;
+}
+.blocActivites2
+{
+width: 22%;
+height: 500px;
+}
+.bloc2ActivitesColonne
+{
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+/* pour les titres sous les photos dans Activités */
+.hauteurTitreActivites
+{
+  height: 70px; 
+}
+
+.reglageTitreActivites
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+}
+
+ /* les images Activites */
+ 
+.activitesImg1
+{
+  object-fit: cover;
+  width: 100%;
+  height: 420px;
+  border-radius: 15px 15px 0 0;
+}
+
+.activitesImg2
+{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.activitesImg3
+{
+  object-fit: cover;
+  width: 100%;
+  height: 110px;
+  border-radius: 15px 15px 0 0; 
+}
+
+.activitesImg4
+{
+  object-fit: cover;
+  width: 100%;
+  height: 420px;
+  border-radius: 15px 15px 0 0;
+}
+
+.activitesImg5
+{
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.activitesImg6
+{
+  object-fit: cover;
+  width: 100%;
+  height: 164px;
+  border-radius: 15px 15px 0 0;
+} 
+
+
+/* le footer*/
+
+footer
+{
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 200px;
+}
+
+.propos
+{
+  width: 35%;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.noshebergements
+{
+  width: 35%;
+  padding-top: 20px;
+}
+.assistance
+{
+  width: 35%;
+  padding-top: 20px;
+}
+
+.blocFooter
+{
+  height: 100px;
+}
+
+/* media queries */
+
+@media screen and (max-width:1280px){
+  .hebergement{
+    width: 60%;
+  }
+  .contourPhoto{
+    width: 30%;
+  }
+  .contourPhoto p{
+    font-size: 14px;
+  }
+  .contourPhotoPopulaire{
+    margin-top: 25px;
+  }
+.populaireImg1{
+  height: 100px;
+}
+.populaireImg2{
+  height: 100px;
+}
+.populaireImg3{
+  height: 100px;
+}
+}

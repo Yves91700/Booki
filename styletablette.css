@@ -1,0 +1,102 @@
+@media only screen and (min-width:768px) and (max-width:992px){
+    .zoneFiltre{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 40px;
+    }
+    
+    .titlefamilial
+    {
+        margin-top: 10px;   
+    }
+    .titleromantique
+    {
+        margin-top: 10px;   
+    }
+    .titleanimaux
+    {
+        margin-top: 10px;    
+    }
+    h2
+    {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    #Bhebergement
+    {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      min-height: auto;
+      min-width: auto;
+    }
+    
+    .contourPhoto
+    {
+    width: 40%;
+    margin: 5px;
+    height: auto;
+    border-radius: 10px;
+    }
+
+    .populaire
+    { 
+     width: 80%;  
+    }
+    
+    .hebergement
+    {
+      width: 92%;
+      margin-left: 20px;
+    }
+
+    .sizeLogoPop
+    {
+        font-size: 12px;
+    }
+
+    .cubeDétailHeberge
+    {
+    font-size: 14px;
+    }
+
+    .blocPopulaireImg1-2Marge
+    {
+        margin-top: 45px;
+    }
+
+    .titrePhotoPopulaire
+    {
+      font-size: 14px;
+      align-items: center;
+    }
+
+    .populaireImg1
+    {
+      width: 35%;
+      height: 150px;
+    }
+    .populaireImg2
+    {
+      height: 150px;
+    }
+
+    .populaireImg3
+    {
+      height: 150px;
+    }
+    .propos
+    {
+      font-size: 12px;
+    }
+    .noshebergements
+    {
+      font-size: 12px;
+    }
+    .assistance
+    {
+      font-size: 12px;
+    }
+}
+
